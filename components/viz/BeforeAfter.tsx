@@ -45,9 +45,9 @@ export function BeforeAfter({ before, after }: { before: Side; after: Side }) {
       onPointerUp={() => (dragging.current = false)}
       onPointerCancel={() => (dragging.current = false)}
     >
-      <img src={after.src} srcSet={`${after.srcSm} 1200w, ${after.src} 2400w`} sizes="100vw" alt={after.alt} className="absolute inset-0 h-full w-full object-cover" draggable={false} />
+      <img src={after.src} srcSet={`${after.srcSm} 1200w, ${after.src} 2400w`} sizes="100vw" alt={after.alt} className="absolute inset-0 h-full w-full object-cover" draggable={false} loading="lazy" decoding="async" />
       <div className="absolute inset-0" style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}>
-        <img src={before.src} srcSet={`${before.srcSm} 1200w, ${before.src} 2400w`} sizes="100vw" alt={before.alt} className="absolute inset-0 h-full w-full object-cover" draggable={false} />
+        <img src={before.src} srcSet={`${before.srcSm} 1200w, ${before.src} 2400w`} sizes="100vw" alt={before.alt} className="absolute inset-0 h-full w-full object-cover" draggable={false} loading="lazy" decoding="async" />
       </div>
 
       <span className="pointer-events-none absolute left-4 top-4 rounded-full bg-ink/75 px-4 py-1.5 font-grotesk text-lg font-bold tracking-wider">{before.label}</span>

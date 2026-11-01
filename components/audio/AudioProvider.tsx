@@ -111,8 +111,6 @@ export function AudioProvider({ children }: { children: React.ReactNode }) {
       const a = ensure(current.current);
       a.play().catch(() => {});
       fadeTo(current.current, 1, 4.5);
-      // Warm up the next track so the first crossfade is instant.
-      ensure("piano").load();
     },
     [ensure, fadeTo],
   );

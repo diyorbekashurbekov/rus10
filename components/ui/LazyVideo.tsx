@@ -32,7 +32,7 @@ export function LazyVideo({ name, className = "", eager = false, rate = 1, label
           near.disconnect();
         }
       },
-      { rootMargin: "60% 100%" },
+      { rootMargin: "25% 50%" },
     );
     const vis = new IntersectionObserver(
       ([e]) => {
