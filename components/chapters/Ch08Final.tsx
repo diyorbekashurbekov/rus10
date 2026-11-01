@@ -32,7 +32,7 @@ export function Ch08Final() {
         scrollTrigger: { trigger: q(".final-scene")[0], start: "top top", end: "+=300%", scrub: 1, pin: true },
       });
       tl.fromTo(q(".final-media"), { scale: 1.15 }, { scale: 1, duration: 4, ease: "none" }, 0)
-        .fromTo(q(".final-dim"), { opacity: 0.1 }, { opacity: 0.6, duration: 4, ease: "none" }, 0)
+        .fromTo(q(".final-dim"), { opacity: 0.35 }, { opacity: 0.65, duration: 4, ease: "none" }, 0)
         .fromTo(q(".f1"), { autoAlpha: 0, y: 40 }, { autoAlpha: 1, y: 0, duration: 0.5 }, 0.2)
         .to(q(".f1"), { autoAlpha: 0, y: -30, duration: 0.4 }, 1.1)
         .fromTo(q(".f2"), { autoAlpha: 0, y: 40 }, { autoAlpha: 1, y: 0, duration: 0.5 }, 1.4)
@@ -49,12 +49,12 @@ export function Ch08Final() {
     <section ref={root} id="final" data-chapter="7" aria-label="Глава 08. Финал" className="relative bg-ink">
       <div className={`final-scene relative overflow-hidden ${cinematic ? "h-screen" : ""}`}>
         <div className="final-media absolute inset-0">
-          <LazyVideo name="river-city-dusk" label="Город с рекой на закате, вид с высоты" rate={0.7} />
+          <LazyVideo name="sunrise-city" label="Солнце поднимается над небоскрёбами города" rate={0.8} />
         </div>
         <div className={`final-dim absolute inset-0 bg-ink ${cinematic ? "" : "opacity-60"}`} />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(8,10,13,0.7)_100%)]" />
 
-        <div className={`relative z-10 px-5 text-center ${cinematic ? "flex h-full items-center justify-center" : "flex flex-col gap-28 py-32"}`}>
+        <div className={`relative z-10 px-5 text-center [text-shadow:0_2px_30px_rgba(0,0,0,0.75)] ${cinematic ? "flex h-full items-center justify-center" : "flex flex-col gap-28 py-32"}`}>
           <p className={`f1 ${line} ${cinematic ? "absolute" : ""}`} data-fade={cinematic ? undefined : ""}>
             Город — это не просто здания.
           </p>

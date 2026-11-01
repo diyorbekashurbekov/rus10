@@ -20,7 +20,7 @@ export function Ch02World() {
 
   return (
     <section ref={root} id="mir" data-chapter="1" aria-label="Глава 02. Мир становится городским" className="relative bg-ink">
-      <WordWindow word="Город" eyebrow="Глава 02 · Мир становится городским" video="world-night" alt="Ночная панорама небоскрёбов большого города">
+      <WordWindow word="Город" eyebrow="Глава 02 · Мир становится городским" video="city-panorama" alt="Панорама небоскрёбов большого города с высоты">
         <p className="eyebrow text-mute">2025 · мир</p>
         <p className="mt-2 font-display text-[clamp(6rem,20vw,18rem)] font-extrabold leading-[0.82] tracking-[-0.06em]">
           45<span className="text-accent">%</span>

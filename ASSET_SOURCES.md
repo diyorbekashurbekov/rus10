@@ -28,16 +28,16 @@
 | Файл | Оригинал | Название | Исходник |
 |---|---|---|---|
 | city-night-aerial.mp4 (+ city-night-aerial-poster.webp) | https://mixkit.co/free-stock-video/aerial-view-of-the-nightlife-of-a-huge-city-42041/ | Aerial view of the nightlife of a huge city | 1080p |
-| world-night.mp4 (+ world-night-poster.webp) | https://mixkit.co/free-stock-video/night-panorama-of-the-skyscrapers-of-a-big-city-40654/ | Night panorama of the skyscrapers of a big city | 1080p |
+| city-panorama.mp4 (+ city-panorama-poster.webp) | https://mixkit.co/free-stock-video/aerial-panorama-over-the-buildings-of-a-big-city-41541/ | Aerial panorama over the buildings of a big city | 1080p |
 | wallet.mp4 (+ wallet-poster.webp) | https://mixkit.co/free-stock-video/person-realizes-that-they-no-longer-have-money-in-his-18299/ | Person realizes that they no longer have money in his wallet | 1080p |
 | traffic-night-aerial.mp4 (+ traffic-night-aerial-poster.webp) | https://mixkit.co/free-stock-video/aerial-view-of-city-traffic-at-night-11/ | Aerial view of city traffic at night | 1080p |
 | bus-window.mp4 (+ bus-window-poster.webp) | https://mixkit.co/free-stock-video/pensive-girl-watching-thru-a-bus-window-46702/ | Pensive girl watching thru a bus window | 720p |
 | subway.mp4 (+ subway-poster.webp) | https://mixkit.co/free-stock-video/subway-train-leaving-the-station-4431/ | Subway train leaving the station | 720p |
 | construction-aerial.mp4 (+ construction-aerial-poster.webp) | https://mixkit.co/free-stock-video/buildings-under-construction-aerial-view-4010/ | Buildings under construction, aerial view | 1080p |
 | park-bikes.mp4 (+ park-bikes-poster.webp) | https://mixkit.co/free-stock-video/bike-ride-of-a-couple-through-a-city-park-41875/ | Bike ride of a couple through a city park | 1080p |
-| river-city-dusk.mp4 (+ river-city-dusk-poster.webp) | https://mixkit.co/free-stock-video/huge-city-with-a-river-in-an-aerial-view-at-49871/ | Huge city with a river in an aerial view at dusk | 1080p |
+| sunrise-city.mp4 (+ sunrise-city-poster.webp) | https://mixkit.co/free-stock-video/sunrise-behind-the-buildings-of-frankfurt-30468/ | Sunrise behind the buildings of Frankfurt | 720p |
 
-Обработка: 1080p H.264 (CRF 23), единая лёгкая цветокоррекция (контраст +6%, насыщенность −14%), без звука.
+Обработка: вывод 1920×1080 H.264 (CRF 21–24; 720p-исходники увеличены Lanczos с лёгкой резкостью), единая лёгкая цветокоррекция (контраст +6%, насыщенность −14%), без звука.
 
 ## Музыка — `public/assets/audio/`
 
